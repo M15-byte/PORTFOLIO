@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0b0f1a;
+  color: #ffffff;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #111827, #0b0f1a);
+}
+
+.hero h1 {
+  font-size: 50px;
+  margin: 0;
+}
+
+.subtitle {
+  color: #9ca3af;
+  margin-top: 10px;
+}
+
+.location {
+  margin-top: 5px;
+  color: #6b7280;
+}
+
+.links a {
+  margin: 10px;
+  color: #60a5fa;
+  text-decoration: none;
+}
+
+/* CARDS */
+.card {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 25px;
+  background: #111827;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.4);
+}
+
+.card h2 {
+  border-left: 4px solid #60a5fa;
+  padding-left: 10px;
+}
+
+/* SKILLS GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.grid span {
+  background: #1f2937;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+/* PROJECTS */
+.project {
+  margin-top: 15px;
+  padding: 10px;
+  background: #1f2937;
+  border-radius: 8px;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 30px;
+  color: #6b7280;
+}
